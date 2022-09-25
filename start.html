@@ -1,0 +1,26 @@
+<html> <head>
+<title>Main Page</title> </head>
+<link rel="stylesheet"type = "text/css"href=start.css> <body onload = "maximumTime()">
+<button onclick = "document.location='home.html'" style="position: fixed; margin-left: 820px;">Back to Home Page</button>
+<button onclick = "startGame()">Start</button>
+<div id="stopwatch" class = "stopwatch"> 00:00
+</div>
+<br> <br>
+<button onclick = "wordOne()">Play First Word</button> <input type = "text" id = "answerOne" spellcheck="false"> <button onclick = "checkOne(), removeOne()">Check</button>
+<br> <br>
+<button onclick = "wordTwo()">Play Second Word</button> <input type = "text" id = "answerTwo" spellcheck="false"> <button onclick = "checkTwo(), removeTwo()">Check</button>
+<br> <br>
+<button onclick = "wordThree()">Play Third Word</button> <input type = "text" id = "answerThree" spellcheck="false"> <button onclick = "checkThree(), removeThree()">Check</button>
+<br> <br>
+<button onclick = "wordFour()">Play Fourth Word</button> <input type = "text" id = "answerFour" spellcheck="false"> <button onclick = "checkFour(), removeFour()">Check</button>
+<br> <br>
+<button onclick = "wordFive()">Play Fifth Word</button> <input type = "text" id = "answerFive" spellcheck="false"> <button onclick = "checkFive(), removeFive()">Check</button>
+<br> <br>
+<button onclick = "displayInfo()">Stop Timer</button>
+<br> <br>
+<p id = "definitions"></p> <table id="table" border="1px">
+<tr>
+<th>Your Answers</th> <th>Correct Answers</th>
+</tr> </table>
+<script src="start.js"></script> </body>
+</html>

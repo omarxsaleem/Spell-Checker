@@ -1,0 +1,20 @@
+body{
+background-color: saddlebrown; }
+table{
+font-family: monospace; font-size: 20px; background-color: sandybrown; margin-left: 410px;
+}
+button{
+padding: 5px 10px;
+font-size: 20px;
+cursor: pointer; background-color: sandybrown; border-radius: 15px; box-shadow: 0 3px #999; font-family: monospace;
+}
+button:hover {background-color: #FFFFFF}
+button:active { background-color: #FFFFFF; box-shadow: 0 5px #666; transform: translateY(4px);
+}
+input{
+height: 30px; }
+#stopwatch { font-size: 40px; position: relative; margin-left: 450px;
+}
+p{
+font-family: monospace;
+font-size: 14px; }

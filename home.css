@@ -1,1 +1,14 @@
-
+button{padding: 30px 50px; font-size: 45px;
+cursor: pointer;
+outline: none;
+color: #fff; background-color: #4CAF50; border: none; border-radius: 15px; box-shadow: 0 9px #999; background-color: red; box-shadow: 0 9px #999; font-family: monospace; margin-left: 410px; line-height: 20px;
+position: absolute;
+}
+button:hover {background-color: #800000}
+button:active { background-color: #800000; box-shadow: 0 5px #666; transform: translateY(4px);
+}
+body{
+background-color: saddlebrown; }
+h1{
+font-family: monospace; font-size: 80px; text-align: center; line-height: 500px;
+}
